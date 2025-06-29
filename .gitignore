@@ -1,0 +1,36 @@
+# IntelliJ IDEA
+.idea/
+*.iws
+*.iml
+*.ipr
+out/
+!**/src/main/**/out/
+!**/src/test/**/out/
+
+# Scala/Java class files
+*.class
+
+# SBT & Scala build
+target/
+!.mvn/wrapper/maven-wrapper.jar
+!**/src/main/**/target/
+!**/src/test/**/target/
+.bsp/
+
+# SBT history
+.history
+dist/
+
+# Logs
+*.log
+
+# Mac OS / Windows
+.DS_Store
+Thumbs.db
+
+# VSCode
+.vscode/
+
+# Environment files
+.env
+*.local
