@@ -14,7 +14,7 @@ case class Num(value: Int) extends Term
 // Clauses
 sealed trait Clause
 case class Fact(term: Term) extends Clause
-case class Rule(head: Term, body: List[Term]) extends Term
+case class Rule(head: Term, body: List[Term]) extends Clause
 
 type Program = List[Clause]
 
